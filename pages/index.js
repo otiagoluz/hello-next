@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 function getPosts() {
   return [
-    { id: 'hello-nextjs', title: 'Hello Next.js' },
-    { id: 'learn-nextjs', title: 'Learn Next.js is awesome' },
-    { id: 'deploy-nextjs', title: 'Deploy apps with ZEIT' }
+    { id: 'hello-nextjs', title: '1 title xD' },
+    { id: 'learn-nextjs', title: '2 title xD' },
+    { id: 'deploy-nextjs', title: '3 title xD' }
   ];
 }
 
@@ -36,7 +36,7 @@ const PostLink = ({ post }) => (
 export default function Blog() {
   return (
     <Layout>
-      <h1>My Blog</h1>
+      <h1>Tiago Luz Blog</h1>
       <ul>
         {getPosts().map(post => (
           <PostLink key={post.id} post={post} />
