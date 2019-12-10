@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 function getPosts() {
   return [
-    { id: 'hello-nextjs', title: '1 title xD' },
-    { id: 'learn-nextjs', title: '2 title xD' },
-    { id: 'deploy-nextjs', title: '3 title xD' }
+    { id: '1-title', title: '1 title xD' },
+    { id: '2-title', title: '2 title xD' },
+    { id: '3-title', title: '3 title xD' }
   ];
 }
 
